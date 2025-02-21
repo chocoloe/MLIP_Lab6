@@ -16,7 +16,7 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
-                sudo /home/team12/miniconda3 init
+                sudo /home/team12/miniconda3/init
 
                 # TODO Complete the command to run pytest
                 sudo /home/team12/miniconda3 run -n python pytest
